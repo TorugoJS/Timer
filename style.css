@@ -1,0 +1,64 @@
+body,html{
+  width: 99%;
+  height: 99%;
+  background-image:url(./assets/img/timer.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
+h1{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.timer{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.6);
+  font-size: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.centro{
+  border-radius: 60px;
+  text-align: center;
+  width: 400px;
+  height: 300px;
+  color: white;
+  background-image: url(./assets/img/fundok.jpg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -150px;
+  
+} 
+
+button{
+  border-radius: 15px;
+  font-size: 20px;
+  
+  
+}
+
+button:hover{
+  
+  transition: 0.2 all;
+  cursor: pointer;
+}
+
+.green{
+  background-color: green;
+}
+
+.gray{
+  background-color: gray;
+}
+
+.red{
+  background-color: red;
+}
