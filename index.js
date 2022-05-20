@@ -7,7 +7,7 @@ var interval;
 
 function start() {
     watch()
-    interval = setInterval(watch, 100)
+    interval = setInterval(watch, 10)
 }
 
 function pause() {
